@@ -1,0 +1,22 @@
+NEXA CLOUD WEBSITE LINK FIX
+
+Upload these three files to the ROOT of your existing repository:
+https://github.com/nexacloud-et/nexa-cloud-website
+
+Files to replace:
+- index.html
+- robots.txt
+- sitemap.xml
+
+This is a website-only update. It does not touch the Render application, main.py, or the business database.
+
+Changes:
+- Application buttons now open https://hawassa-business-cloud.onrender.com/owner/login instead of the service root (which returns a JSON status response).
+- Canonical and social URLs use the new GitHub Pages username.
+- robots.txt and sitemap.xml use the new GitHub Pages URL.
+
+GitHub steps:
+1. Open the repository and choose Add file > Upload files.
+2. Upload these three files at repository root, replacing the existing files.
+3. Use commit message: Fix application login link and website URLs.
+4. Wait for GitHub Pages to publish, then test Open application in an Incognito window.
