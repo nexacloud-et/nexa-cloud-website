@@ -1,0 +1,18 @@
+NEXA CLOUD WEBSITE — FOUNDER PHOTO UPDATE
+
+This update is for the existing public GitHub Pages website only. It does not change the live business-management app or its database.
+
+Files to upload to the ROOT of https://github.com/Hasenha/nexa-cloud-website:
+1. index.html (replace existing)
+2. styles.css (replace existing)
+3. founder-hasen-hanade.jpg (new file)
+
+Steps:
+1. Extract the ZIP on your computer.
+2. Open https://github.com/Hasenha/nexa-cloud-website/upload.
+3. Upload the three files listed above to the repository root. Do not upload the ZIP.
+4. Confirm index.html and styles.css are being updated and the JPG is being added.
+5. Commit with message: Add founder portrait to company website
+6. Wait for GitHub Pages to publish. Open https://hasenha.github.io/nexa-cloud-website/ and press Ctrl+F5 if you see a cached version.
+
+The photo appears in the Founder & CEO section. The image is optimized for website loading and uses an accessible alt description.
