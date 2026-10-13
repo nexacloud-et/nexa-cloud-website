@@ -1,0 +1,20 @@
+NEXA CLOUD WEBSITE — BEGINNER DEPLOYMENT GUIDE
+
+IMPORTANT: This is a separate public website. Do not copy these files into the existing `hawassa-business-cloud` application repository. Create a NEW repository named `nexa-cloud-website`.
+
+1. Download and extract NexaCloud_Public_Website.zip.
+2. Open the extracted folder named `nexa_cloud_public_website`.
+3. Sign in to GitHub as Hasenha and create a NEW PUBLIC repository named `nexa-cloud-website`.
+4. Upload the contents of the extracted folder to the root of that new repository. Confirm that `index.html` appears at the top level in the GitHub Code view.
+5. Commit the files to the `main` branch.
+6. Open Settings, then Pages.
+7. For Build and deployment, select `Deploy from a branch`.
+8. Select branch `main` and folder `/(root)`, then click Save.
+9. Wait for the deployment status. GitHub Pages should show the website address. The expected project URL is:
+   https://hasenha.github.io/nexa-cloud-website/
+   Use the actual URL displayed in your repository's Pages settings if it differs.
+10. Test navigation, email link, privacy link and the existing application link on desktop and mobile.
+
+The website is static and free to host on GitHub Pages using a public repository. It does not replace, connect to, or alter the existing production database. Do not put secrets or customer data in this repository.
+
+Official GitHub guide: https://docs.github.com/en/pages/quickstart
